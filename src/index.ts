@@ -34,7 +34,7 @@ app.use("/watchlist", watchlistRoutes);
 
 // Server home route
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
-  res.json({ message: "Hello fellow developer." });
+  res.json({ message: "Hello watchers." });
 });
 
 // Server ping route
